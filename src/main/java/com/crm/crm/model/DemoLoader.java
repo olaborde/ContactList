@@ -14,7 +14,7 @@ public class DemoLoader implements CommandLineRunner{
 
     @Override
     public void run(String... strings){
-        this.repository.save(new Contact("Osse", "Laborde", "zz@xx.com"));
+        this.repository.save(new Contact("Blue", "Sky", "zz@xx.com"));
 
     }
 
